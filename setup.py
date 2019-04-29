@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 
 setup(
     name='reusegen',
-    version='0.1.1',
-    description='Cache generator results and reuse them',
+    version='0.1.2',
+    description='Cache generator\'s results and reuse them',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
@@ -22,4 +22,6 @@ setup(
     author_email='correctizer@gmail.com',
     license='MIT',
     packages=['reusegen'],
+    test_suite='nose.collector',
+    tests_require=['nose'],
 )
