@@ -1,5 +1,8 @@
 # reusegen
 
+![PyPI](https://img.shields.io/pypi/v/reusegen.svg)
+![Travis (.org)](https://img.shields.io/travis/whoiscc/reusegen.svg)
+
 Generators are exhausted during iteration:
 
 ```Python
